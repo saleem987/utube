@@ -39,7 +39,7 @@ const Comment = () => {
     <Container>
  <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlD7sZ5jeTuzNMp3Z1GI0pBTmBuGPVMRS8Ww&usqp=CAU"/>
  <Detail>
-  <Name>Muzamil khan  <Date>1 day ago</Date></Name>
+  <Name>Muzamil khan jfnnfafn <Date>1 day ago</Date></Name>
 <Text>
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero excepturi numquam voluptatem, eos necessitatibus, minus corporis nulla qui totam quos praesentium eligendi quia!
 </Text>
