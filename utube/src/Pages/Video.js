@@ -54,18 +54,20 @@ const Channel=styled.div`
 display:flex;
 justify-content:space-between;
 margin-top:20px;
-gap:15px`
+`
+
 
 const ChannelInfo=styled.div`
 display:flex;
 align-items:center;
-gap:15px;
+margin-left:10px;
+
 `
 const Avatar=styled.img`
-width:36px;
-height:36px;
+width:3.5rem;
+height:2.2rem;
 border-radius:50%;
-object-fit: cover;`
+`
 const ChannelDetail=styled.div`
 display:flex;
 flex-direction:column; 
