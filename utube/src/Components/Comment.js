@@ -9,8 +9,9 @@ flex-direction:row;
 
 const Avatar=styled.img`
 
-width:36px;
-height:36px;
+width:2.5rem;
+height:2rem;
+object-fit:cover;
 border-radius:50%;
 
 `
