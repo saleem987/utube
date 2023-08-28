@@ -26,7 +26,7 @@ const Comments = () => {
   return (
     <Container>
       <NewComment>
-      <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlD7sZ5jeTuzNMp3Z1GI0pBTmBuGPVMRS8Ww&usqp=CAU"/>
+      <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgLH-uhr77hgvb2BmVjxp6_wQ0LcZKvvVxvA&usqp=CAU"/>
       <Input placeholder="Add a comment..."/>
       </NewComment>
       <Comment/>

@@ -24,13 +24,14 @@ flex:1;
 `
 
 const ChannelImage=styled.img`
-width:36px;
-height:36px;
+width:40px;
+height:40px;
 border-radius:50%;
 background-color:#999;
 display:${(props)=>props.type==="sm"&&"none"};
 `
 const Text=styled.div`
+margin-left:${(props)=>props.type!=="sm"&&"10px"};
 `
 const Title=styled.h1`
 font-size:16px;
@@ -53,7 +54,7 @@ const Cards = ({type}) => {
     <Container type={type}>
 <Image  type={type} src="https://ccweb.imgix.net/https%3A%2F%2Fimg.youtube.com%2Fvi%2Fk3Vfj-e1Ma4%2Fhqdefault.jpg?ar=16%3A9&auto=format&cs=strip&fit=crop&h=380&ixlib=php-4.1.0&w=535&s=355438c936ef3017decfc302c6165c20" />
 <Details  type={type} >
-  <ChannelImage  type={type} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlD7sZ5jeTuzNMp3Z1GI0pBTmBuGPVMRS8Ww&usqp=CAU"/>
+  <ChannelImage  type={type} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgLH-uhr77hgvb2BmVjxp6_wQ0LcZKvvVxvA&usqp=CAU"/>
   <Text>
     <Title>Test Video</Title>
     <ChannleName>Saleem tube</ChannleName>

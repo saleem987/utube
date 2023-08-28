@@ -64,8 +64,8 @@ margin-left:10px;
 
 `
 const Avatar=styled.img`
-width:3.5rem;
-height:2.2rem;
+width:2.5rem;
+height:2.5rem;
 border-radius:50%;
 `
 const ChannelDetail=styled.div`
@@ -129,7 +129,7 @@ const Video = () => {
       </Details>
       <Hr/>
       <Channel>
-      <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlD7sZ5jeTuzNMp3Z1GI0pBTmBuGPVMRS8Ww&usqp=CAU"/>
+      <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgLH-uhr77hgvb2BmVjxp6_wQ0LcZKvvVxvA&usqp=CAU"/>
       <ChannelInfo>
      
       <ChannelDetail>
