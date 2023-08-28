@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import Cards from '../Components/Cards';
+
 const Container=styled.div`
 display:flex;
 justify-content:space-between;
@@ -9,6 +10,7 @@ flex-wrap:wrap;
 const Home = () => {
   return (
     <Container>
+     
        <Cards/>
        <Cards/>
        <Cards/>
@@ -29,7 +31,7 @@ const Home = () => {
        <Cards/>
        <Cards/>
        <Cards/>
-
+       
     </Container>
   )
 }

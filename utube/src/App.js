@@ -5,12 +5,14 @@ import { darkTheme,lightTheme } from "./Components/Utils/Theme";
 import { useState } from "react";
 import Home from "./Pages/Home"; 
 import Video from "./Pages/Video";
+import Signin from "./Pages/Signin";
 import {
   BrowserRouter,
   Routes,
   Route,
   
 } from "react-router-dom";
+
 
 
 
@@ -40,6 +42,8 @@ function App() {
   <Routes>
     <Route path="/">
 <Route index element={<Home/>}/>
+<Route path ="signin" element={<Signin/>}/>
+
 <Route path="video">
 <Route path=":id" element={<Video/>}/>
 </Route>

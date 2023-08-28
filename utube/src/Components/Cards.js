@@ -19,8 +19,9 @@ flex:1;
 const Details=styled.div`
 display:flex;
 margin-top:${(props)=>props.type!=="sm"&&"16px"};
-gap:5px;
+gap:0px;
 flex:1;
+
 `
 
 const ChannelImage=styled.img`
@@ -63,6 +64,7 @@ const Cards = ({type}) => {
 </Details>
     </Container>
     </Link>
+    
   )
 }
 

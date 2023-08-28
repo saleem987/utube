@@ -17,7 +17,7 @@ import OutlinedFlagRoundedIcon from '@mui/icons-material/OutlinedFlagRounded';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import SettingsBrightnessOutlinedIcon from '@mui/icons-material/SettingsBrightnessOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 const Container=styled.div`
 display: flex;
 flex:1;
@@ -49,11 +49,14 @@ margin-right: -15px;
 const Item=styled.div`
 display:flex;
 align-items:center;
-// justify-content:center;
-
 padding:5.5px 20px;
 cursor:pointer;
 gap:5px;
+
+&:hover{
+  background-color:${({theme})=>theme.soft};
+}
+
 `
 const Hr=styled.hr`
 margin:5px 0px;
@@ -77,6 +80,7 @@ gap:5px;
 const Menu = ({darkMode,setDarkMode}) => {
   return (
     <Container>
+      
        <Wrapper>
        <Link to="/" style={{textDecoration:"none",color:'inherit'}}>
         <Logo>
@@ -85,8 +89,11 @@ const Menu = ({darkMode,setDarkMode}) => {
         </Logo>
         </Link>
         <Item>
+         <Link to="/" style={{textDecoration:"none",color:'inherit'}}>
           <HomeIcon/>
+        
           Home
+          </Link>
         </Item>
         <Item>
         <ExploreIcon/>
@@ -106,11 +113,15 @@ const Menu = ({darkMode,setDarkMode}) => {
           History
         </Item>
         <Hr/>
+        
         <Login>
+       
           Sign in to like videos,comment, and subscribe.<br/>
+          <Link to="signin" style={{textDecoration:"none"}}>
           <Button><AccountCircleOutlinedIcon/>
             SIGN IN
           </Button>
+          </Link>
         </Login>
         <Hr/>
         <Item>
